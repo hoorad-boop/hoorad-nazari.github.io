@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoorad Nazari - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="three.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-950 text-gray-200 font-sans">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-green-600 to-emerald-700 text-white p-8 text-center shadow-lg">
+    <h1 class="text-4xl font-bold mb-2">Hoorad Nazari</h1>
+    <p class="text-lg">Full-Stack Web Developer</p>
+    <p class="mt-4">
+      <a href="mailto:hooradnazary@gmail.com" class="underline">hooradnazary@gmail.com</a> | 
+      <a href="tel:+989038153240" class="underline">+98 903 815 3240</a> | 
+      <a href="https://github.com/hoorad-boop" target="_blank" class="underline">GitHub</a>
+    </p>
+  </header>
+
+  <!-- Summary -->
+  <section class="relative max-w-4xl mx-auto py-12 px-6">
+    <div class="absolute right-0 top-1/2 transform -translate-y-1/2 w-64 h-64 opacity-40 pointer-events-none">
+      <canvas id="summary-canvas" class="w-full h-full"></canvas>
+    </div>
+    <h2 class="text-2xl font-bold mb-4 text-green-400">Professional Summary</h2>
+    <p class="leading-relaxed">
+      Web development enthusiast learning by building real projects. I enjoy turning ideas into functional websites and always look for new challenges to level up my skills. Excited to keep growing and contribute to creative teams.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="bg-gray-900 shadow-md rounded-2xl max-w-5xl mx-auto p-10 mb-12 relative">
+    <div class="absolute left-0 top-10 w-40 h-40 opacity-30 pointer-events-none">
+      <canvas id="skills-canvas" class="w-full h-full"></canvas>
+    </div>
+    <h2 class="text-3xl font-bold mb-8 text-green-400 text-center">Skills</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- (same skills content as before) -->
+    </div>
+  </section>
+
+  <!-- Certifications & Projects -->
+  <section class="max-w-4xl mx-auto py-12 px-6">
+    <h2 class="text-2xl font-bold mb-6 text-green-400">Certifications & Projects</h2>
+    <ul class="list-disc pl-5 space-y-2">
+      <!-- (certification links as before) -->
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 text-gray-400 text-center py-6 mt-12">
+    <p>&copy; 2025 Hoorad Nazari. Built with ❤️ and TailwindCSS.</p>
+  </footer>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+</html>
